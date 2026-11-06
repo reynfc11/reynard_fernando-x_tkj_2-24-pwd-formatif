@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f0f4f9;
+      }
+      .layout {
+        display: flex;
+      }
+      #sidebar {
+        width: 25%;
+        background-color: #253b56;
+        color: #ffffff;
+        padding: 20px;
+      }
+      #sidebar h3 {
+        margin-top: 0;
+        margin-bottom: 24px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      #sidebar nav {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      #sidebar a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+        padding-left: 5px; /*aasadasdasdssssssssssssssssssssssssssssssssssssssssssssssas*/
+      }
+      #sidebar a:hover {
+        color: #e6953b;
+      }
+      .main-content {
+        width: 75%;
+        padding: 30px;
+      }
+      .main-content h1 {
+        color: #253b56;
+      }
+      .main-content p {
+        color: #4a5568;
+        line-height: 1.6;
+      }
+      footer {
+        text-align: center;
+        padding: 14px;
+        background-color: #c8c8c8;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <aside id="sidebar">
+        <h3>Menu</h3>
+        <nav>
+          <a href="../pages/profile.html">Profil</a>
+          <a href="../components/card-badge.html">Proyek</a>
+          <a href="#">Keahlian</a>
+          <a href="../pages/contact.html">Kontak</a>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <h1>Profil Saya</h1>
+        <p>
+          Saya Reynard Fernando, siswa kelas X TKJ 2. Saya sedang belajar
+          membuat website dengan HTML dan CSS.
+        </p>
+        <p>
+          Di halaman ini ada ringkasan tentang saya, proyek yang sudah dibuat,
+          dan kemampuan yang sedang dipelajari.
+        </p>
+        <p>
+          Gunakan menu di sebelah kiri untuk berpindah antar bagian portofolio.
+        </p>
+      </main>
+    </div>
+    <footer>
+      <a href="..\index.html">Kembali ke Beranda</a>
+    </footer>
+  </body>
+</html>
